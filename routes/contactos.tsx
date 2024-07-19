@@ -1,12 +1,12 @@
 import { useSignal } from "@preact/signals";
-import Login from "../islands/Login.tsx"
+import AgendaType from "../islands/Agenda.tsx"
 
 
 export default function Home() {
 
   return (
     <div>
-      <Login/>
+     <p>contactos</p>
     </div>
   );
 }
